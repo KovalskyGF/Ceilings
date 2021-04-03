@@ -298,22 +298,28 @@ font-style: normal;
 
 .installation_title {
 	font-family: 'DIN Pro Condensed Bold';
-	margin-top: 190px;
+	margin-top: 84px;
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 70px;
-	padding-bottom: 20px;
 }
 
 .installation_content {
+	max-width: 1171px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
+}
+
+#installation {
+	padding-bottom: 75px;
 }
 
 .install_img {
 	position: relative;
 	margin-top: 60px;
+	width: 357px;
+	height: 293px;
 }
 
 .install_img:first-child {
@@ -342,8 +348,9 @@ font-style: normal;
   height: 2px;
 }
 
-.info_title {
+.table_info_title {
 	font-size: 18px;
+	margin-left: 10px;
 }
 
 .rectangle_wrap {
@@ -479,19 +486,27 @@ font-style: normal;
 }
 
 .ceiling_img {
-	position: absolute;
 	top: -100px;
-	right: 0;
 	z-index: 2;
 }
 
 #ceiling {
-	position: relative;
+	display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
+.ceiling_left {
+	max-width: 685px;
+	margin-top: 75px;
+}
+
+
 .table_photo {
+	margin-top: 20px;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 td {
@@ -500,6 +515,7 @@ td {
 
 .table_table {
 	width: 100%;
+	margin-top: 30px;
 }
 
 .cell_td, .cell_tr {
@@ -508,12 +524,98 @@ td {
 	line-height: 30px;
 	height: 67px;
 	padding-left: 20px;
+	border: none;
+	background-color: #fff;
+}
+
+.cell_tr {
+		text-align: center;
 }
 
 .table_item {
-	height: 100%:;
+	background-color: #fff;
+	height: 52px;
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 45px;
+	border: none;
+}
+
+.table_item_w {
+	height: 52px;
+	padding-left: 20px;
+	font-size: 16px;
+	line-height: 45px;
+	border: none;
+	border: none;
 }
 
 #table {
 	background-color: #F8F8F8;
+}
+
+.table_item_price {
+	text-align: center;
+}
+
+
+
+.table_item_price {
+	border: none;
+}
+
+.table_item_price_w {
+	background-color: #fff;
+	text-align: center;
+	border: none;
+}
+
+.ceiling_content{
+	right: 0;
+}
+
+.ceiling_img_l {
+	position: absolute;
+	left: 0;
+	width: 872px;
+	height: 628px;
+	flex: 2;
+}
+
+.ceiling_inform {
+	display: flex;
+}
+
+.ceiling_o {
+	display: flex;
+}
+
+.table_item_block {
+	display: flex;
+	align-items: center;
+	margin-top: 32px;
+}
+
+.table_content_item_img {
+	padding: 12px;
+	background-color: #fff;
+}
+
+#window {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.window_right {
+	padding-right: 10px;
+}
+
+.installation_title_celing {
+	font-family: 'DIN Pro Condensed Bold';
+	margin-top: 10px;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 70px;
+	padding-bottom: 20px;
 }
